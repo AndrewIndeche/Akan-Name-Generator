@@ -15,9 +15,11 @@
      </div>
      </div>
       <div class="card-body">
+         </ul>
     <h1>Languages and Platforms Used</h1>
-    1.Javascript
-    2.Atom
+         <ol>
+    Javascript
+    Atom
     </div>
     </div>
      <div class="card-body">
