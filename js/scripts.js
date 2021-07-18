@@ -9,9 +9,25 @@ let female_names = ["Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama", "Akosua",] 
 let male_names = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame']
 
 let gender = document.getElementById("gender").value
-let yy = parseInt(document.getElementById("yy").value)
-let cc = parseInt(document.getElementById("cc").value)
-let mm = parseInt(document.getElementById("mm").value)
-let dd = parseInt(document.getElementById("dd").value)
+let YY = parseInt(document.getElementById("YY").value)
+let CC = parseInt(document.getElementById("CC").value)
+let MM = parseInt(document.getElementById("MM").value)
+let DD = parseInt(document.getElementById("DD").value)
 
+if (dd < 0 || dd > 31) {
+       return alert( dd + " is not a valid day. The day should be between zero and 31")
+            }
+if (mm < 0 || mm > 31) {
+      return alert( mm + " is not a valid month. The month should be between zero and twelve")
+            }
+
+if (gender == "male") {
+       var name = male_names[dayOfTheWeek]
+      return alert("Your Akan name is " + name)
+            }
+
+if (gender == "female") {
+      var name = female_names[dayOfTheWeek]
+    returnalert("Your Akan name is " + name)
+            }
 console.log(dayofTheWeek)
