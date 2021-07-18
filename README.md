@@ -11,7 +11,7 @@
          <p>The project is an individual Project for Moringa School focusing on:</p>
       <ul>
      <li>Creating an Akan Calculator web App that has a fill in form for where users can input their date of birth,</li>
-        <li>get a corresponding day of the week that reveals their Akan name</li>
+        <li>Get a corresponding day of the week that reveals their Ghanaian Akan name</li>
      </div>
      </div>
       <div class="card-body">
