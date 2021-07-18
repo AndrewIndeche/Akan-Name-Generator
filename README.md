@@ -17,7 +17,7 @@
       <div class="card-body">
          </ul>
     <h1>Languages and Platforms Used</h1>
-         <ol>
+         <ul>
     Javascript
     Atom
     </div>
