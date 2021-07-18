@@ -28,7 +28,7 @@
     <h1>Project Set-up Instructions</h1>
      <ul>
      <li>MkDir</li>
-     <li>Touch index.html,Read Me License/li>
+     <li>Touch index.html,Read Me License</li>
      <li>Github repository creation and link</li>
      <li>Github push</li>
      <li>Git hub live io site</li> 
