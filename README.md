@@ -36,4 +36,5 @@
      </div>
      </div>
    <h1>License</h1>
+   View License information od attached link
     https://github.com/AndrewIndeche/javascriptproject/blob/master/LICENSE.md
