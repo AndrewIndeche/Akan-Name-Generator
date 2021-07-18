@@ -3,9 +3,6 @@
      <div class="card-body">
     <h1>Javascript Application Project<h1>
      <h2>Project description</h2>
-     </div>
-     </div>
-      <div class="card-body">
     <p>Independent Project</p>
          <p>Date 16th July 2021</p>
          <p>The project is an individual Project for Moringa School focusing on:</p>
@@ -18,8 +15,8 @@
          </ul>
     <h1>Languages and Platforms Used</h1>
          <ul>
-    Javascript
-    Atom
+    1.Javascript
+    2.Atom
     </div>
     </div>
      <div class="card-body">
