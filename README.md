@@ -1,9 +1,8 @@
    </head>
     <body>
-     <div class="card-body">
     <h1>Javascript Application Project<h1>
      <h2>Project description</h2>
-    <p>Independent Project</p>
+          Independent Project
          <p>Date 16th July 2021</p>
          <p>The project is an individual Project for Moringa School focusing on:</p>
       <ul>
