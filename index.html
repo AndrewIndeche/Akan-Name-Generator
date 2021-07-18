@@ -1,70 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <meta charset="utf-8"</>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   <title>Akan Names</title>
-   <script type="text/javascript" src="scripts.js"></script>
-   <style>
-       html,
-       body {
-         height: 100%;
-       }
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Test form</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
         .container {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       }
-   </style>
-  </head>
-  <body>
-      <form>
-      <div class="container">
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
         <div class="row">
             <div class="col-sm-12">
-            <form onsubmit="processForm(event)">
               <h1>Akan Name Calculator</h1>
-              <p>Akan names are names that are derived from Ghanaian culture.Ghanaians give their first names to their children corresponding to a day of the week that they were born<p>
-                <p>The Akan calculator will give you your Ghanaian Akan Name based on your daye of the week date input as well as gender input</p>
-                <h3>Instructions</h3>
-                <ul>
-                  <li>Enter the first two digits of century cc,year yy,month </li>
-                  <li>Choose Gender</li>
-                  <li>Click the submit button</li>
-            <div class="form-group">
-              <label for="fname">Enter Century:</label>
-              <input type="number" id="cc" name="fname" class="form-control">
+               <p>Akan names are names that are derived from Ghanaian culture.Ghanaians give their first names to their children corresponding to a day of the week that they were born<p>
+               <p>The Akan calculator will give you your Ghanaian Akan Name based on your daye of the week date input as well as gender input</p>
+               <h3>Instructions</h3>
+               <ul>
+               <li>Enter the first two digits of century cc,year yy,month </li>
+               <li>Choose Gender</li>
+               <li>Click the submit button</li>
+               </ul>
+                <form onsubmit="processForm(event)">
+                    <div class="form-group">
+                        <label for="fname">Enter CC:</label>
+                        <input type="number" id="cc" name="fname" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="fname">Enter YY:</label>
+                        <input type="number" id="yy" name="fname" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="fname">Enter MM:</label>
+                        <input type="number" id="mm" name="fname" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="fname">Enter DD:</label>
+                        <input type="number" id="dd" name="fname" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lname">Enter your gender(male or female):</label>
+                        <input type="text" id="gender" name="lname" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-            <div class="form-group">
-              <label for="fname">Enter Year:</label>
-              <input type="number" id="yy" name="fname" class="form-control">
-            </div>
-            <div class="form-group">
-              <label for="fname">Enter Month:</label>
-              <input type="number" id="mm" name="fname" class="form-control">
-            </div>
-            <div class="form-group">
-              <label for="fname">Enter Day:</label>
-              <input type="number" id="dd" name="fname" class="form-control">
-            </div>
-            <div class="form-group">
-              <label class="mr-sm-2" for="inlineFormCustomSelect"><em>Gender</em></label>
-              <select class="custom-select mr-sm-2" id="gender">
-              <option selected>Choose...</option>
-              <option value="1">Male</option>
-              <option value="2">Female</option>
-              </select>
-           </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </div>
-          </div>
-      </div>
-  </form>
-  </body>
+        </div>
+    </div>
+    <form onsubmit="processForm(event)" class="d-none">
+        <input type="submit" value="Submit">
+    </form>
+    <script type="text/javascript">
+        let female_names = ["Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama", "Akosua",] //0-6
+        let male_names = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame']
+        function getBirthday(CC, YY, MM, DD) {
+            return ((((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7) - 1.5
+        }
+        function processForm(e) {
+            e.preventDefault();
+            let gender = document.getElementById("gender").value
+            let yy = parseInt(document.getElementById("yy").value)
+            let cc = parseInt(document.getElementById("cc").value)
+            let mm = parseInt(document.getElementById("mm").value)
+            let dd = parseInt(document.getElementById("dd").value)
+            if (dd < 0 || dd > 31) {
+                return alert( dd + " is not a valid day. The day should be between zero and 31")
+            }
+            if (mm < 0 || mm > 31) {
+                return alert( mm + " is not a valid month. The month should be between zero and twelve")
+            }
+            var dayOfTheWeek = getBirthday(cc, yy, mm, dd) //0-6
+            if (gender == "male") {
+                var name = male_names[dayOfTheWeek]
+                alert("Your Akan name is " + name)
+            }
+            if (gender == "female") {
+                var name = female_names[dayOfTheWeek]
+                alert("Your Akan name is " + name)
+            }
+        }
+    </script>
+</body>
 </html>
