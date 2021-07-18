@@ -7,8 +7,8 @@
      </div>
       <div class="card-body">
     <p>Independent Project</p>
-    <p>Date 16th July 2021</p?
-    <p>The project is an individual Project for Moringa School focusing on:
+         <p>Date 16th July 2021</p>
+         <p>The project is an individual Project for Moringa School focusing on:</p>
      <p>Creating an Akan Calculator App that has a fill in form for where users can input their date of birth, get a corresponding day of the week that reveals their Akan name</p>
      </div>
      </div>
@@ -27,7 +27,7 @@
      <div class="card-body">
     <h1>Project Set-up Instructions</h1>
      <ul>
-     <l1>MkDir,</li>
+     <li>MkDir</li>
      <li>Touch index.html,Read Me License/li>
      <li>Github repository creation and link</li>
      <li>Github push</li>
