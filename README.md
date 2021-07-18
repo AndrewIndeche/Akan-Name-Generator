@@ -9,7 +9,9 @@
     <p>Independent Project</p>
          <p>Date 16th July 2021</p>
          <p>The project is an individual Project for Moringa School focusing on:</p>
-     <p>Creating an Akan Calculator App that has a fill in form for where users can input their date of birth, get a corresponding day of the week that reveals their Akan name</p>
+      <ul>
+     <li>Creating an Akan Calculator web App that has a fill in form for where users can input their date of birth,</li>
+        <li>get a corresponding day of the week that reveals their Akan name</li>
      </div>
      </div>
       <div class="card-body">
