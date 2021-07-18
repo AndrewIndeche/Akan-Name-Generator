@@ -35,7 +35,5 @@
      </ul>
      </div>
      </div>
-    <h1>Link to live site</h1>
-
-    <h1>License</h1>
+   <h1>License</h1>
     https://github.com/AndrewIndeche/javascriptproject/blob/master/LICENSE.md
