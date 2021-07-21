@@ -35,6 +35,8 @@
      </ul>
      </div>
      </div>
+    <h1>Live site</h1>
+    Click link to find live site:https://andrewindeche.github.io/javascriptproject/
    <h1>License</h1>
-   View License information od attached link
+   View License information attached link
     https://github.com/AndrewIndeche/javascriptproject/blob/master/LICENSE.md
