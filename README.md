@@ -38,5 +38,7 @@
     <h1>Live site</h1>
     Click link to find live site:https://andrewindeche.github.io/javascriptproject/
    <h1>License</h1>
+   Copyright (c) 2021 Andrew Indeche
+   By using and/or copying this project, or the license document from which this statement is linked, you (the licensee) agree that you have read, understood, and    will comply with conditions of use.
    View License information attached link
     https://github.com/AndrewIndeche/javascriptproject/blob/master/LICENSE.md
