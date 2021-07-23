@@ -6,8 +6,8 @@
          <p>Date 16th July 2021</p>
          <p>The project is an individual Project focusing on:</p>
       <ul>
-     <li>Creating an Akan Calculator web App that has a fill in form for where users can input their date of birth,</li>
-        <li>Get a corresponding day of the week that reveals their Ghanaian Akan name</li>
+     <li>Creating an Akan Calculator/generator web App that has a fill in form where users can input their date of birth parameters (Century CC,Year YY,Month MM,Day DD),</li>
+        <li>They will a corresponding day of the week that reveals their Ghanaian Akan name</li>
      </div>
      </div>
       <div class="card-body">
@@ -24,14 +24,18 @@
     <p>Contact indecheandrew@gmail.com</p>
     </div>
     </div>
-     <div class="card-body">
     <h1>Project Set-up Instructions</h1>
      <ul>
      <li>MkDir</li>
      <li>Touch index.html,Read Me License</li>
+     <li>MkDir independent Project 2,CSS,Bookstrap,images</li>
+     <li>Touch index.html,styles.css,scripts.js,bg.img,Read Me License</li>  
      <li>Github repository creation and link</li>
      <li>Github push</li>
      <li>Git hub live io site</li> 
+     <li>Github push to save changes</li>
+     <li>Git hub-click live site link to get calculator io site</li> 
+       Scripts used: Javascript on scripts.js,Css file used:styles.css,img attachment
      </ul>
      </div>
      </div>
