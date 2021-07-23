@@ -24,8 +24,6 @@
     <p>Contact indecheandrew@gmail.com</p>
     </div>
     </div>
-    <h2>Screen shot of app<h2>
-     ![Screenshot from 2021-07-23 11-45-30](https://user-images.githubusercontent.com/86969595/126760562-2cd5ff3d-b68c-4671-9e2c-6febf7be5a3b.png)
     <h1>Project Set-up Instructions</h1>
      <ul>
      <li>MkDir</li>
