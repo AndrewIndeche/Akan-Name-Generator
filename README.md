@@ -25,7 +25,7 @@
     </div>
     </div>
     <h2>Screen shot of app<h2>
-     ![Screenshot from 2021-07-23 11-45-30](https://user-images.githubusercontent.com/86969595/126758445-59ebb59d-cf2f-488a-bcee-9179c1a6556f.png)
+     ![Screenshot from 2021-07-23 11-45-30](https://user-images.githubusercontent.com/86969595/126760562-2cd5ff3d-b68c-4671-9e2c-6febf7be5a3b.png)
     <h1>Project Set-up Instructions</h1>
      <ul>
      <li>MkDir</li>
@@ -37,6 +37,7 @@
      <li>Git hub live io site</li> 
      <li>Github push to save changes</li>
      <li>Git hub-click live site link to get calculator io site</li> 
+       Scripts used: Javascript on scripts.js,Css file used:styles.css,img attachment
      </ul>
      </div>
      </div>
