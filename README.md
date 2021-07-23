@@ -1,4 +1,4 @@
-      </head>
+   </head>
     <body>
     <h1>Javascript Application Project<h1>
      <h2>Project description</h2>
@@ -12,12 +12,10 @@
      </div>
       <div class="card-body">
          </ul>
-    <h2>Screen shot of app<h2>
-     ![Screenshot from 2021-07-23 11-45-30](https://user-images.githubusercontent.com/86969595/126758445-59ebb59d-cf2f-488a-bcee-9179c1a6556f.png)
     <h1>Languages and Platforms Used</h1>
+         <ul>
     1.Javascript
     2.Atom
-    3.JS Fiddle
     </div>
     </div>
      <div class="card-body">
@@ -26,12 +24,17 @@
     <p>Contact indecheandrew@gmail.com</p>
     </div>
     </div>
-     <div class="card-body">
+    <h2>Screen shot of app<h2>
+     ![Screenshot from 2021-07-23 11-45-30](https://user-images.githubusercontent.com/86969595/126758445-59ebb59d-cf2f-488a-bcee-9179c1a6556f.png)
     <h1>Project Set-up Instructions</h1>
      <ul>
+     <li>MkDir</li>
+     <li>Touch index.html,Read Me License</li>
      <li>MkDir independent Project 2,CSS,Bookstrap,images</li>
-     <li>Touch index.html,styles.css,scripts.js,bg.img,Read Me License</li>
+     <li>Touch index.html,styles.css,scripts.js,bg.img,Read Me License</li>  
      <li>Github repository creation and link</li>
+     <li>Github push</li>
+     <li>Git hub live io site</li> 
      <li>Github push to save changes</li>
      <li>Git hub-click live site link to get calculator io site</li> 
      </ul>
