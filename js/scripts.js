@@ -13,7 +13,6 @@
         let CC = parseInt(document.getElementById("CC").value)
         let MM = parseInt(document.getElementById("MM").value)
         let DD = parseInt(document.getElementById("DD").value)
-
         if (DD < 0 || DD > 31) {
             return alert( DD + " is not a valid day. The day should be between 0 and 31")
         }
