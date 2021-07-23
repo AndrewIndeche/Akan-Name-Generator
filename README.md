@@ -4,7 +4,7 @@
      <h2>Project description</h2>
           Independent Project
          <p>Date 16th July 2021</p>
-         <p>The project is an individual Project for Moringa School focusing on:</p>
+         <p>The project is an individual Project focusing on:</p>
       <ul>
      <li>Creating an Akan Calculator web App that has a fill in form for where users can input their date of birth,</li>
         <li>Get a corresponding day of the week that reveals their Ghanaian Akan name</li>
@@ -21,7 +21,7 @@
      <div class="card-body">
     <h1> Authors</h1>
     <p>Andrew Indeche</p>
-    <p>Contact:andrew.indeche@student.moringaschool.com</p>
+    <p>Contact indecheandrew@gmail.com</p>
     </div>
     </div>
      <div class="card-body">
@@ -38,5 +38,7 @@
     <h1>Live site</h1>
     Click link to find live site:https://andrewindeche.github.io/javascriptproject/
    <h1>License</h1>
+   Copyright (c) 2021 Andrew Indeche
+   By using and/or copying this project, or the license document from which this statement is linked, you (the licensee) agree that you have read, understood, and    will comply with conditions of use.
    View License information attached link
-    https://github.com/AndrewIndeche/javascriptproject/blob/master/LICENSE.md
+    https://github.com/AndrewIndeche/javascriptproject/blob/master/LICENSE
