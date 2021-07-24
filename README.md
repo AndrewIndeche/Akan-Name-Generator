@@ -40,7 +40,7 @@
      </div>
      </div>
     <h1>Live site</h1>
-    Click link to find live site:https://andrewindeche.github.io/javascriptproject/
+    Click link to find live site:https://andrewindeche.github.io/Akan-Name-Generator/
    <h1>License</h1>
    Copyright (c) 2021 Andrew Indeche
    By using and/or copying this project, or the license document from which this statement is linked, you (the licensee) agree that you have read, understood, and    will comply with conditions of use.
