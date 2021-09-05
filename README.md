@@ -7,7 +7,7 @@
          <p>The project is an individual Project focusing on:</p>
       <ul>
      <li>Creating an Akan Calculator/generator web App that has a fill in form where users can input their date of birth parameters (Century CC,Year YY,Month MM,Day DD),</li>
-        <li>They will a corresponding day of the week that reveals their Ghanaian Akan name</li>
+        <li>They App will generate a corresponding day of the week that reveals their Ghanaian Akan name</li>
      </div>
      </div>
       <div class="card-body">
